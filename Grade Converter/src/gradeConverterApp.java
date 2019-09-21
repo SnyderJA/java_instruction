@@ -37,12 +37,13 @@ public class gradeConverterApp {
 		
 		String choice ="y";
 		
-		while (choice = "y")
+		while (choice = "y") {
 			
 		System.out.println("Letter Grade: " + letGrade);
 		
 		System.out.println("Continue (Y/N) ");
 		choice = sc.nextLine();
+		}
 		
 		System.out.println("GoodBye");
 		sc.close();
