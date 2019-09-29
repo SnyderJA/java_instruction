@@ -6,7 +6,7 @@ public class ClassDemoApp {
 
 	public static void main(String[] args) {
 
-		System.out.println("Welcome to the demo app ");
+		System.out.println("Welcome to the demo app\n\n ");
 		Scanner sc = new Scanner(System.in);
 
 		Product product1 = new Product();
