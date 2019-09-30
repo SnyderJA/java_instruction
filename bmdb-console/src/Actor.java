@@ -1,7 +1,7 @@
 import java.sql.Date;
 import java.time.LocalDate;
 
-public class actor {
+public class Actor {
 
 	
 	//Variables
@@ -12,7 +12,7 @@ public class actor {
 	private LocalDate birthDate;
 	
 	//Constructor
-	public actor() {
+	public Actor() {
 		id = 0;
 		firstName = "";
 		lastName = "";

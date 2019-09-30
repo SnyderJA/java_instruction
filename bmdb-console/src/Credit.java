@@ -1,5 +1,5 @@
 
-public class credit {
+public class Credit {
 
 	
 	//Variables
@@ -10,7 +10,7 @@ public class credit {
 
 	
 	//Constructor
-		public credit() {
+		public Credit() {
 		id = 0;
 		movieId = 0;
 		actorId = 0;

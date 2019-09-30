@@ -1,5 +1,5 @@
 
-public class movie {
+public class Movie {
 
 	
 	//Variables
@@ -19,7 +19,7 @@ public class movie {
 	}*/
 	
 	
-	public movie(String title, String rating, int year, String director) {
+	public Movie(String title, String rating, int year, String director) {
 		this.id = 0;
 		this.title = title;
 		this.rating = rating;
