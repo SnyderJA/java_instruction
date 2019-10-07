@@ -1,7 +1,6 @@
 
 public class Calc {
 
-	int result;
 	
 	public static int add(int a, int b) {
 		int result = a + b;
@@ -26,10 +25,6 @@ public class Calc {
 	}
 
 
-	@Override
-	public String toString() {
-		return "Calc [result=" + result + "]";
-	}
 
 	
 	
