@@ -18,16 +18,13 @@ public class CalcApp {
 			int b = Console.getInt("Enter second number: ");
 
 			if (operator.equalsIgnoreCase("A"))
-				Calc.add(a, b);
+				System.out.println("Your Answer: " + Calc.add(a, b));
 			else if (operator.equalsIgnoreCase("S"))
-				Calc.subtract(a, b);
+				System.out.println("Your Answer: " + Calc.subtract(a, b));
 			else if (operator.equalsIgnoreCase("M"))
-				Calc.multiply(a, b);
+				System.out.println("Your Answer: " + Calc.multiply(a, b));
 			else if (operator.equalsIgnoreCase("D"))
-				Calc.divide(a, b);
-			
-			
-			
+				System.out.println("Your Answer: " + Calc.divide(a, b));
 
 			System.out.println("Try another? (y/n)");
 			choice = sc.nextLine();
