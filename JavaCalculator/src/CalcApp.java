@@ -14,6 +14,7 @@ public class CalcApp {
 
 			String operator = Console
 					.getString("please choose an operator \n A: Additon, S: Subtract, M: Multiply, D: Divide: ");
+
 			int a = Console.getInt("Enter first number: ");
 			int b = Console.getInt("Enter second number: ");
 
