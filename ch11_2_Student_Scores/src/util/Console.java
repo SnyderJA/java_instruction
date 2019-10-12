@@ -1,4 +1,4 @@
-package ch11_2_Student_Scores;
+package util;
 import java.util.Scanner;
 import java.lang.Object;
 import java.time.LocalDate;
