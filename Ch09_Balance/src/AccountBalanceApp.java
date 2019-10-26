@@ -19,7 +19,7 @@ public class AccountBalanceApp {
 			String acct = Console.getString("Checking or Savings (c/s): ");
 			double amt = Console.getDouble("amount: ", 0, Double.POSITIVE_INFINITY);
 
-			//Polymorhism example
+			//Polymorphism example
 			Account a = null;
 			if (acct.equalsIgnoreCase("C"))
 				a = ca;
